@@ -1,0 +1,48 @@
+python的list相對其他程式語言的array具有優勢
+
+list裡面的內容是"物件" 不需要是相同資料型態
+array"的所有資料型態必須相同才能使用'"
+
+SQL比較偏向是資料的儲存
+
+pandas偏向是資料的分析(pandas無法儲存資料)
+
+python有一些非關聯式資料庫如json(輕量型) 較少使用關聯式資料庫套件
+
+row(列):以列為主的一維陣列處理速度較快
+column(欄):以欄為主的二維陣列處理速度較慢
+
+python通常以row為主的新增或修改資料
+
+pandas可以決定以row還是col當成第一維度
+
+物件導向:
+
+程式碼只會被分為函式與結構
+
+program >>> function ---                instance
+                        |--- Class----- >>>>>>>> Object
+vaiable >>> struct   ---     (類別)     |         (物件)
+                                        |
+                                        |
+                                        Class   Class_name
+
+                                        1. function(method) >>>動態
+                                        
+                                        2. attributes(varible) >>>靜態
+
+一個object一定屬於一個class
+
+C++可以進行多重繼承: 例如 狗跟貓可以同時是 寵物和捲形物
+
+python只能做單一繼承
+
+可以透過向下轉型把一個父類別變成子類別 EX: 初新者(父類別) >>>> 戰士(子類別)
+
+
+期末報告:交易策略(改成55%= =)
+
+用已知的資料作預測
+moving window或ARIMA
+
+用機器學習和深度學習的分數較高
